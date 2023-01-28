@@ -16,27 +16,27 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "https://frontend-44d67.web.app/")
+@CrossOrigin(origins = "https://frontend-44d67.web.app")
 public class PersonaController {
     @Autowired IPersonaServicio ipersonaservicio;
-    @GetMapping("personas/traer")
+    @GetMapping("/personas/traer")
     public List <Persona>getPersona() {
         return ipersonaservicio.getPersona();
     }
     @PreAuthorize("hasRole('ADMIN')")
-    @PostMapping("personas/crear")
+    @PostMapping("/personas/crear")
     public String createPersona(@RequestBody Persona persona){
         ipersonaservicio.savePersona(persona);
         return "se creo satisfactoriamente la persona";
     }
     @PreAuthorize("hasRole('ADMIN')")
-    @DeleteMapping("personas/borrar/{id}")
+    @DeleteMapping("/personas/borrar/{id}")
     public String deletePersona(@PathVariable Long id){
         ipersonaservicio.deletePersona(id);
         return "la persona fue eliminada con exito";
     }
     @PreAuthorize("hasRole('ADMIN')")
-    @PutMapping("personas/editar/{id}")
+    @PutMapping("/personas/editar/{id}")
     public Persona editPersona(@PathVariable Long id,
                                 @RequestParam("nombre")String nuevoNombre,
                                 @RequestParam("apellido")String nuevoApellido,
@@ -48,7 +48,7 @@ public class PersonaController {
     ipersonaservicio.savePersona(persona);
     return persona;
 }
-    @GetMapping("personas/traer/perfil")
+    @GetMapping("/personas/traer/perfil")
     public Persona findPersona(){
         return ipersonaservicio.findPersona((long)1);
     }
