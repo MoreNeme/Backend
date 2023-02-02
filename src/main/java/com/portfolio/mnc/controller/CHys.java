@@ -28,8 +28,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author maria
  */
 @RestController
-//@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins = "https://frontend-44d67.web.app")
+@CrossOrigin(origins = {"https://frontend-44d67.web.app","http://localhost:4200"})
 @RequestMapping("/hys")
 public class CHys {
     @Autowired
