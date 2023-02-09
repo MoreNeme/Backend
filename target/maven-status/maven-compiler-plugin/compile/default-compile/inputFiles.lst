@@ -1,5 +1,7 @@
 C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\controller\CEducacion.java
+C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\Dto\dtoProyecto.java
 C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\entity\Persona.java
+C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\controller\CProyecto.java
 C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\Security\Service\RolService.java
 C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\entity\Experiencia.java
 C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\Security\Repository\iRolRepository.java
@@ -16,6 +18,7 @@ C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\Secur
 C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\Security\jwt\JwtProvider.java
 C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\service\SExperiencia.java
 C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\Dto\dtoHys.java
+C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\entity\Proyecto.java
 C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\repository\RHys.java
 C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\service\SEducacion.java
 C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\Security\Entity\Usuario.java
@@ -24,7 +27,9 @@ C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\Secur
 C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\Dto\dtoPersona.java
 C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\controller\CExperiencia.java
 C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\Security\Dto\JwtDto.java
+C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\repository\RProyecto.java
 C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\Security\Repository\iUsuarioRepository.java
+C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\service\SProyecto.java
 C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\Security\Enums\RolNombre.java
 C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\service\SHys.java
 C:\Users\maria\OneDrive\Escritorio\Backend\src\main\java\com\portfolio\mnc\Security\Entity\Rol.java

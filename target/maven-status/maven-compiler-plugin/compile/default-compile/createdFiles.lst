@@ -3,12 +3,16 @@ com\portfolio\mnc\service\SExperiencia.class
 com\portfolio\mnc\Security\Service\UserDetailsImpl.class
 com\portfolio\mnc\Security\jwt\JwtProvider.class
 com\portfolio\mnc\Security\Service\UsuarioService.class
+com\portfolio\mnc\entity\Proyecto.class
 com\portfolio\mnc\Dto\dtoExperiencia.class
 com\portfolio\mnc\repository\REducacion.class
+com\portfolio\mnc\Dto\dtoProyecto.class
 com\portfolio\mnc\Security\MainSecurity.class
+com\portfolio\mnc\repository\RProyecto.class
 com\portfolio\mnc\Security\Repository\iUsuarioRepository.class
 com\portfolio\mnc\Dto\dtoPersona.class
 com\portfolio\mnc\Security\Controller\AuthController.class
+com\portfolio\mnc\controller\CProyecto.class
 com\portfolio\mnc\Security\Entity\Rol.class
 com\portfolio\mnc\entity\Experiencia.class
 com\portfolio\mnc\service\ImpPersonaService.class
@@ -17,6 +21,7 @@ com\portfolio\mnc\service\SEducacion.class
 com\portfolio\mnc\Security\Dto\JwtDto.class
 com\portfolio\mnc\Security\jwt\JwtEntryPoint.class
 com\portfolio\mnc\Security\Entity\Usuario.class
+com\portfolio\mnc\service\SProyecto.class
 com\portfolio\mnc\entity\Hys.class
 com\portfolio\mnc\Security\Entity\UsuarioPrincipal.class
 com\portfolio\mnc\repository\RExperiencia.class
