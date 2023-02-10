@@ -26,6 +26,7 @@ com\portfolio\mnc\entity\Hys.class
 com\portfolio\mnc\Security\Entity\UsuarioPrincipal.class
 com\portfolio\mnc\repository\RExperiencia.class
 com\portfolio\mnc\entity\Educacion.class
+com\portfolio\mnc\Webconfig.class
 com\portfolio\mnc\Security\Service\RolService.class
 com\portfolio\mnc\Dto\dtoEducacion.class
 com\portfolio\mnc\Dto\dtoHys.class
