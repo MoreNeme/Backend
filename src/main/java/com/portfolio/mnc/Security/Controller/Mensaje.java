@@ -4,10 +4,7 @@
  */
 package com.portfolio.mnc.Security.Controller;
 
-/**
- *
- * @author maria
- */
+
 public class Mensaje {
     private String mensaje;
     

@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.portfolio.mnc.controller;
 
 import com.portfolio.mnc.Dto.dtoHys;
@@ -28,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author maria
  */
 @RestController
-@CrossOrigin(origins = {"https://frontend-44d67.web.app","http://localhost:4200"})
+@CrossOrigin(origins = {"https://frontend-46920.web.app","http://localhost:4200"})
 @RequestMapping("/hys")
 public class CHys {
     @Autowired
